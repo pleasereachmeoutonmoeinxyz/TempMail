@@ -1,0 +1,95 @@
+[
+    {
+        "name": "gabordemooij/redbean",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gabordemooij/redbean.git",
+            "reference": "3bfe2cbdd5e141af5330ba7bbf9c9493a6ff6b79"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/3bfe2cbdd5e141af5330ba7bbf9c9493a6ff6b79",
+            "reference": "3bfe2cbdd5e141af5330ba7bbf9c9493a6ff6b79",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2014-04-02 22:01:26",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "RedBean_": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "authors": [
+            {
+                "name": "Gabor de Mooij",
+                "email": "gabordemooij@gmail.com",
+                "homepage": "http://www.redbeanphp.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Easy ORM for PHP",
+        "homepage": "http://github.com/gabordemooij/redbean",
+        "keywords": [
+            "Object Relational Mapping",
+            "orm"
+        ]
+    },
+    {
+        "name": "slim/slim",
+        "version": "2.4.3",
+        "version_normalized": "2.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/codeguy/Slim.git",
+            "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/codeguy/Slim/zipball/4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+            "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-mcrypt": "Required for HTTP cookie encryption"
+        },
+        "time": "2014-04-05 18:33:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Slim": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josh Lockhart",
+                "email": "info@joshlockhart.com",
+                "homepage": "http://www.joshlockhart.com/"
+            }
+        ],
+        "description": "Slim Framework, a PHP micro framework",
+        "homepage": "http://github.com/codeguy/Slim",
+        "keywords": [
+            "microframework",
+            "rest",
+            "router"
+        ]
+    }
+]
